@@ -1,0 +1,55 @@
+styles.css
+.text-input {
+    margin-right: 10px; /* Separación entre el botón y el input */
+    width: 300px; 
+}
+
+/* Cambia el color del texto cuando se pasa el mouse */
+.buttons {
+    height: 42px; /* Altura del botón */
+    background-color: #E0F7FA; /* Color de fondo */
+    color: #00695C; /* Color del texto */
+    border: none; /* Sin borde */
+    transition: background-color 0.8s; /* Efecto de transición al pasar el mouse */
+}
+
+.buttons:hover {
+    background-color: #B2EBF2; /* Cambia el color al pasar el mouse */
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.PiePagina {
+    background: linear-gradient(to right, #00695C, #004D40); /* Degradado de fondo */
+    
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    font-size: 14px; /* Tamaño del texto */
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%; /* Asegúrate de que ocupe todo el ancho */
+    
+}
+
+.paper{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.container1 {
+    width: 100%;
+    
+}
